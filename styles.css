@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Shalimar&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("images/background6.jpg"); */
+  background-repeat: no-repeat; 
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+img{
+  width: 50px;
+}
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+ 
+}
+form{
+  background: #FFA1CF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 7px 11px 32px -5px rgba(0,0,0,0.71);
+  -webkit-box-shadow: 7px 11px 32px -5px rgba(0,0,0,0.71);
+  -moz-box-shadow: 7px 11px 32px -5px rgba(0,0,0,0.71);
+}
+form input[type=text] {
+  height: 40px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  text-align: center;
+  /* box-shadow: 9px 9px 9px 1px; */
+}
+.submit{
+text-decoration: none;
+color: #fff;
+background: #937DC2;;
+padding: 10px 40px;
+border-radius: 15px;
+
+}
+
+#result{
+  color: #937DC2;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  width: 70%;
+  border-bottom: 3px solid #937DC2;
+  margin-bottom: 20px;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: #937DC2;
+}
+@media  screen and (max-width:600px) {
+  form{
+    width: 90%;
+  }
+}
+
