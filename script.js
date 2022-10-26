@@ -1,4 +1,5 @@
-function submit(){
+function submit(e){
+    e.preventDefault()
     var name1 = document.getElementById("nameOne").value;
     var name2 = document.getElementById("nameTwo").value;
     var result = document.getElementById("result");
